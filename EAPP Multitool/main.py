@@ -106,7 +106,7 @@ class App(customtkinter.CTk):
         #app_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "releaseAPP")
         #os.startfile("calc.exe")
         
-        subprocess.call(["releaseAPP\fastcommand"])
+        subprocess.call(["releaseAPP/calc.exe"])
 
     def select_frame_by_name(self, name):
         # set button color for selected button
